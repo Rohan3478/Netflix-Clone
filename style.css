@@ -111,6 +111,9 @@ nav button{
     align-items: center;
     gap: 3px;
 }
+.hero-button input{
+    color: white;
+}
 .first{
     color: white;
     display: flex;
