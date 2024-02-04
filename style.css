@@ -224,11 +224,11 @@ footer .que{
         left: 42px;
         width: 220px;
     }
-    .third .secimg video{
+   .third .secimg video{
         position: relative;
         top: -210px;
-        right: 25px;
-        width: 190px;
+        left: 60px;
+        width: 180px;
     }
     .hero-button input{
         padding: 5px 20px;
