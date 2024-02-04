@@ -205,7 +205,7 @@ footer .que{
     cursor: pointer;
     font-weight: 400;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
 
     nav{
         max-width: 90vw;
