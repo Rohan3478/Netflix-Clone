@@ -324,3 +324,11 @@ footer .que{
         gap: 25px;
     }
 }
+@media screen and (max-width: 350px){
+   .sign{
+    font-size: 9px;
+   }
+   .english{
+    font-size: 10px;
+   }
+}
