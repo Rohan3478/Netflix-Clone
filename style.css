@@ -301,7 +301,21 @@ footer .que{
     .fourth .secimg img{
         width: 400px;
     }
-
+    .faqbox .question{
+        transition: all 1s ease-out;
+        font-size: 24px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #2d2d2d;
+        padding: 18px 40px;
+        max-width: 60vw;
+        margin: 10px auto;
+        cursor: pointer;
+        max-height: 60px;
+    }
+    .faqbox .answer{
+        max-width: 67vw;
+    }
 }
 @media screen and (max-width: 1300px) {
 
