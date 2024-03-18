@@ -11,9 +11,10 @@ body{
     background-image: url("assets/images/bgimg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1700px,100vw);
+    background-size: max(1200px,100vw);
     height: 644px;
     position: relative;
+    overflow: hidden;
 }
 .box{
     background-color: black;
@@ -86,6 +87,9 @@ nav button{
 .sign{
     background-color: red;
     color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .start{
     font-weight: 400;
@@ -163,7 +167,7 @@ section.first> div :nth-child(2){
     color: white;
     padding: 34px;
 }
-.faqbox{
+.faqbox .question{
     transition: all 1s ease-out;
     font-size: 24px;
     display: flex;
@@ -173,6 +177,14 @@ section.first> div :nth-child(2){
     max-width: 60vw;
     margin: 10px auto;
     cursor: pointer;
+}
+.faqbox .answer{
+    display: none;
+    background-color: #2d2d2d;
+    max-width: 60vw;
+    margin: 10px auto;
+    padding: 25px;
+    transition: 0.3s ease-out;
 }
 footer{
     color: rgba(255,255,255,0.7);
@@ -190,6 +202,13 @@ footer .que{
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    color: white;
+    text-decoration: underline;
 }
 .footer-item{
     gap: 20px;
@@ -209,7 +228,6 @@ footer .que{
     font-weight: 400;
 }
 @media screen and (max-width: 740px) {
-
     nav{
         max-width: 90vw;
     }
@@ -224,7 +242,7 @@ footer .que{
         left: 42px;
         width: 220px;
     }
-   .third .secimg video{
+    .third .secimg video{
         position: relative;
         top: -210px;
         left: 60px;
@@ -232,10 +250,7 @@ footer .que{
     }
     .hero-button input{
         padding: 5px 20px;
-    }
-    .start{
-        padding: 10px 10px;
-        font-size: 9px;
+        width: 200px;
     }
 
     .secimg img {
@@ -258,12 +273,16 @@ footer .que{
         font-size: 18px;
     }
 
-    .hero-buttons {
+    .hero-button {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 16px;
+        gap: 10px;
+    }
+    .start{
+        font-size: 10px;
+        padding: 10px 10px;
     }
 
     .faq h2 {
