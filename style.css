@@ -104,6 +104,7 @@ nav button {
     padding: 6px 12px;
     border-radius: 4px;
     cursor: pointer;
+    border: 1px solid red;
 }
 
 .start {
@@ -376,10 +377,12 @@ footer .que {
 @media screen and (max-width: 400px) {
     .sign {
         font-size: 9px;
+        padding: 2px 4px;
     }
 
     .english {
-        font-size: 10px;
+        font-size: 9px;
+        padding: 3px 10px;
     }
 
     .hero> :nth-child(1) {
