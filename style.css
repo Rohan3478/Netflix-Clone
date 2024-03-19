@@ -376,12 +376,12 @@ footer .que {
 
 @media screen and (max-width: 400px) {
     .sign {
-        font-size: 9px;
+        font-size: 14px;
         padding: 2px 4px;
     }
 
     .english {
-        font-size: 9px;
+        font-size: 14px;
         padding: 3px 10px;
     }
 
